@@ -48,10 +48,10 @@
   }
   
   img {
-    width: 40%;
+    width: 100%;
     transition: 2s;
     border-radius: 10px;
-    opacity: 60%;
+    opacity: 100%;
     filter: grayscale(80%);
   }
   
@@ -89,14 +89,16 @@
     cursor: pointer;
   }
   
-  .btn:hover {
-    opacity: 0.8;
-  }
+  
   
   @media(max-width:600px) {
     .card {
       display: block;
     }
   }
-
+  img:hover{
+    border-radius: 10px;
+    opacity: 100%;
+    filter: grayscale(0);
+  }
   
